@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COURSE" directorySegmentName="seg_0" id="FB8E9E73-CF93-3093-8A77-92DAE6DD2AD4">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<schemaObject>1EB38818-CD5F-7E14-7AF0-D7E9677FB70E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>40EB2AE3-4E34-09C2-6517-E11EDC29E208</segment>
+<tableSpace>3F4A6323-172E-037C-BEFB-D6FDD2BAAE00</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COURSE_NAME" id="B300517D-A7AE-BE6B-CFF9-3864C4519021">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSE_ID" id="ECCCD71E-FE14-059E-DD65-12EF1B2576E2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COURSE_PK" id="BEFC95BD-D71F-575B-6D1F-D71C129759C7">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<schemaObject>1EB38818-CD5F-7E14-7AF0-D7E9677FB70E</schemaObject>
+<segment>CC6BDE72-7EF6-C5B6-EEDC-83361D04CB76</segment>
+<tableSpace>3F4A6323-172E-037C-BEFB-D6FDD2BAAE00</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COURSE_PK" id="738CECB1-CA79-D134-D634-95499CC4689E">
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<segment>CC6BDE72-7EF6-C5B6-EEDC-83361D04CB76</segment>
+<tableSpace>3F4A6323-172E-037C-BEFB-D6FDD2BAAE00</tableSpace>
+<existingIndex>BEFC95BD-D71F-575B-6D1F-D71C129759C7</existingIndex>
+<indexSegment>CC6BDE72-7EF6-C5B6-EEDC-83361D04CB76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

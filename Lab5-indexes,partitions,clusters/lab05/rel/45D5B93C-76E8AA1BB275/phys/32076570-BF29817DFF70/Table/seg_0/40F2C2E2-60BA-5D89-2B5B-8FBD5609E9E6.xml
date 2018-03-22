@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT_INFORMATION" directorySegmentName="seg_0" id="40F2C2E2-60BA-5D89-2B5B-8FBD5609E9E6">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BE8554EF-343D-0EF8-9870-A84BC1D3E8F2</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LIST_PRICE" id="02036D44-D8CE-7A44-899F-68FFA81F31FE">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_NAME" id="16F42206-E509-5340-B6AD-792BC1B2EE40">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WARRANTY_PERIOD" id="22047855-8FCF-45E0-FBD2-AA486170B26D">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_ID" id="2989DE07-CEA6-92B4-D875-3C6C122B14C6">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="8AF5781A-EE64-E7BC-3442-0E8F7A9D0B70">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEIGHT_CLASS" id="9181BE3A-8829-9ED7-A992-2496A364D505">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATALOG_URL" id="B296A21F-1267-5D7A-BFD0-A156F223B70A">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_STATUS" id="D5A5E362-0AD6-3F1E-D199-64FE664976BB">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIN_PRICE" id="E17ED127-EC9F-5574-BF5C-B8648852B612">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY_ID" id="EE264142-A0E6-848C-6560-3D323146B2BE">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_DESCRIPTION" id="FAD5033F-996B-BC4F-F6E1-4B8C99149A54">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCT_INFORMATION_PK" id="51A4A858-30B8-32BE-3F0F-C57ADF55B599">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<logging>NO</logging>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCT_IDX" id="97124CEC-5314-2A52-D0FF-3DBAE03B36B6">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CATEGORY_ID_IDX" id="C3D2E3E6-40DD-E60D-E6B5-096864CBF987">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_INFORMATION_PK" id="F2AC0639-744E-52D2-6556-31DC83880AA9">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<logging>NO</logging>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<existingIndex>51A4A858-30B8-32BE-3F0F-C57ADF55B599</existingIndex>
+<indexSegment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

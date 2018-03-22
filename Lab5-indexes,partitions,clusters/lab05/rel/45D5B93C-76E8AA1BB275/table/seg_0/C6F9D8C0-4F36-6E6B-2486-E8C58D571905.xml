@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6F9D8C0-4F36-6E6B-2486-E8C58D571905" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="PRODUCT_DESCRIPTIONS">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTIONS</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="C257D775-4BF9-D66A-6EFB-473B93AEDBF1">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>PRODUCT_DESCRIPTIONS</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EBCAC43-6784-1655-6654-1B221593AC4A" referredColumn="2989DE07-CEA6-92B4-D875-3C6C122B14C6"/>
+</associations>
+</Column>
+<Column name="LANGUAGE_ID" id="DA4C1AA3-A618-2A1E-D0C4-6AB72A6D3B53">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>PRODUCT_DESCRIPTIONS</sourceObjSchema>
+<sourceObjName>LANGUAGE_ID</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSLATED_NAME" id="C940FC53-4BDD-8C40-6624-55F60CB29BD7">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>PRODUCT_DESCRIPTIONS</sourceObjSchema>
+<sourceObjName>TRANSLATED_NAME</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TRANSLATED_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="TRANSLATED_DESCRIPTION" id="F0A9ABF0-929F-A797-CBC9-1303BCF6C28E">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>PRODUCT_DESCRIPTIONS</sourceObjSchema>
+<sourceObjName>TRANSLATED_DESCRIPTION</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TRANSLATED_DESC_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71FF3421-FF9B-8763-AE23-5034440151F5" name="PRODUCT_DESCRIPTIONS_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTIONS_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C257D775-4BF9-D66A-6EFB-473B93AEDBF1"/>
+<colUsage columnID="DA4C1AA3-A618-2A1E-D0C4-6AB72A6D3B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF80AB2A-0643-29F4-92C2-A318F4521F64" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="LANGUAGE_ID_IDX">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>LANGUAGE_ID_IDX</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4C1AA3-A618-2A1E-D0C4-6AB72A6D3B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D47D0EA-0332-A2C1-495D-0AB54C019758" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="PRODUCT_DESCRIPTIONS_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTIONS_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C257D775-4BF9-D66A-6EFB-473B93AEDBF1"/>
+<colUsage columnID="DA4C1AA3-A618-2A1E-D0C4-6AB72A6D3B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1332E431-30EE-8F61-F96D-D98887339210" name="PD_PRODUCT_ID_FK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C257D775-4BF9-D66A-6EFB-473B93AEDBF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

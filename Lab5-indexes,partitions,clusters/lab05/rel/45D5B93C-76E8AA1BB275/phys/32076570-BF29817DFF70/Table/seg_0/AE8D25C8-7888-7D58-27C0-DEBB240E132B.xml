@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMERS" directorySegmentName="seg_0" id="AE8D25C8-7888-7D58-27C0-DEBB240E132B">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<logging>YES</logging>
+<partitionList class="oracle.dbtools.crest.model.design.storage.oracle.v11g.PartitionListOraclev11g" name="PL1" id="D66EA075-CE4D-F925-3D95-D48FEA12EE62">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<columnIDs>D08DE323-70E9-8C7F-E6D8-0C921FA32C5D</columnIDs>
+<partitionType>LIST</partitionType>
+</partitionList>
+<partitioned>YES</partitioned>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>79BBA2E4-10DE-608E-43F1-B5A430771303</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREDIT_LIMIT" id="5ACB4F42-4F9D-6FAB-49AE-58DAFB4D5889">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_LAST_NAME" id="6D691E29-291A-A160-3801-559CFAFFA176">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_FIRST_NAME" id="8B52069B-166E-6CAE-F74F-18AF01D6CB43">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_MGR_ID" id="A9CFA1A8-ADA3-7717-BAAA-16CB7D477110">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_EMAIL" id="CDC14DB7-A7DE-E670-5C12-45ED268D71C7">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NLS_TERRITORY" id="D08DE323-70E9-8C7F-E6D8-0C921FA32C5D">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NLS_LANGUAGE" id="E288FE0E-0924-3333-8237-012D5F782650">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="F0148721-2D2F-F80F-3328-D40EDEC3AE4F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUST_NAME_IDX" id="5B681773-AAEC-2265-986A-449708C58C81">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUSTOMERS_PK" id="63B979DA-55AC-8B7B-8784-F419239A763F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUST_EMAIL_IDX" id="88BCBA32-B287-FCA1-741C-7891F608D3C9">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNT_MGR_ID_IDX" id="A602C8F6-BF20-04DB-A72A-11EE31F6EE36">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+</indexProxies>
+<partitions>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="NORTH_AMERICA" id="BFB851AE-EA2A-56E0-E3A1-2E0F81722538">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;NA&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>1</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="CENTRAL_AMERICA" id="95EE5966-1F74-771F-F740-D7BC2BAC63DA">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;CA&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>2</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="CARIBBEAN" id="310D5A79-FF13-DA71-1D1F-856D73580645">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;CAR&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>3</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="WEST_EUROPE" id="4223EC51-C410-4901-95A8-17A025F54945">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;WE&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>4</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="AFRICA" id="E87702B8-8D61-7AC1-359D-EE15BC2901D2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;AF&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>5</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="MIDDLE_EAST" id="0E73B294-5BFC-14EB-4AE1-52EC6D22A562">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;ME&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>6</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="EAST_EUROPE" id="FE163E3A-7E37-3A22-EEA5-3914E9D5CD09">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;EE&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>7</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="SOUTH_ASIA" id="70BE1B24-AD98-CE95-B681-841E68A79587">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;SA&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>8</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="EAST_ASIA" id="4CED3091-9D81-BBF9-0E2F-C8B28EE37B50">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;EA&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>9</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="SOUTH_EAST_ASIA" id="1CEEB81D-552A-B52E-6877-BBE703314D04">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;SEA&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>10</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+<Partition class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ListPartitionOraclev11g" name="AUSTRALIA_SOUTH_PACIFIC" id="30BABED7-D88E-F4CB-113B-CF43E6FF75EC">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<valueList>&apos;ASP&apos;</valueList>
+<dataSegmentCompression>NO</dataSegmentCompression>
+<logging>YES</logging>
+<position>11</position>
+<segment>F0FE8145-F96C-60CC-23D6-66BF46CC6E92</segment>
+<tablespace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tablespace>
+</Partition>
+</partitions>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMERS_PK" id="409CF3F2-77A0-71A7-1D3F-7452854A9231">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<segment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<existingIndex>63B979DA-55AC-8B7B-8784-F419239A763F</existingIndex>
+<indexSegment>6504CADE-0E6E-AEFB-6CFE-EDC1DA90E02C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

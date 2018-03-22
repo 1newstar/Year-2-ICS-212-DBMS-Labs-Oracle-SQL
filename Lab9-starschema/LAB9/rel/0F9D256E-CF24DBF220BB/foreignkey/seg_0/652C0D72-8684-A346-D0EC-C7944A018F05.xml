@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="652C0D72-8684-A346-D0EC-C7944A018F05" containerWithKeyObject="2EAABD06-84BE-F5B0-BEA9-1E5AF5775EE3" localFKIndex="E5BABB23-1F20-AB51-5EF7-E51E0AA5E1D1" name="SALES_FACT_DEMOGRAPHIC_FK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>E1A9307C-3998-B933-4731-2055AF074F33</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<referredTableLongName>DEMOGRAPHIC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>847AD640-97C7-BAA7-201E-D979D5145019</referredTableID>
+<keyObject>E139BFB6-8072-D6D5-4905-C9CFC2276D02</keyObject>
+<referredKeyID>E139BFB6-8072-D6D5-4905-C9CFC2276D02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CREDIT_LIMIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="323E18D7-2B44-A543-5C87-8C321C1D6B35" containerWithKeyObject="78154511-9488-9568-DA5F-09F14CA418E0" localFKIndex="36D3A2CA-10CA-EA49-D6A7-D2C15481C029" name="INVENTORIES_PRODUCT_ID_FK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>INVENTORIES_PRODUCT_ID_FK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<referredTableLongName>NMACKENZI.PRODUCT_INFORMATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40F2C2E2-60BA-5D89-2B5B-8FBD5609E9E6</referredTableID>
+<keyObject>F2AC0639-744E-52D2-6556-31DC83880AA9</keyObject>
+<referredKeyID>F2AC0639-744E-52D2-6556-31DC83880AA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRODUCT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

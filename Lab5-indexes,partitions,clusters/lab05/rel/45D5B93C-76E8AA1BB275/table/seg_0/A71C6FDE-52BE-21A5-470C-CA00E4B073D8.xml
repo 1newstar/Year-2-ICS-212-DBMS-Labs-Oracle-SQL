@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A71C6FDE-52BE-21A5-470C-CA00E4B073D8" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="WAREHOUSES">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>WAREHOUSES</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WAREHOUSE_ID" id="1E88CD01-94F3-6390-EB2E-582EB657F131">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>WAREHOUSE_ID</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WAREHOUSE_NAME" id="CBEE442E-CFB5-05B8-6784-395D9E3DCBE2">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>WAREHOUSE_NAME</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<ownDataTypeParameters>35 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="15E7EA1B-1778-0890-5BC0-EA14E741089C">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A906960-1346-1238-09C0-48A5DA9930E2" name="WAREHOUSES_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>WAREHOUSES_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E88CD01-94F3-6390-EB2E-582EB657F131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41FA8D89-78EF-99BF-81F8-ADD011964143" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="LOCATION_ID_IDX">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>LOCATION_ID_IDX</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E7EA1B-1778-0890-5BC0-EA14E741089C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BD12224-84E2-FF7C-7649-5AF66693B668" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="WAREHOUSES_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>WAREHOUSES_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E88CD01-94F3-6390-EB2E-582EB657F131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C369CEC-E8F2-D660-D098-2404E87F2908" schemaObject="B05BAB68-8342-697F-FC19-818732B4620C" name="WAREHOUSE_NAME_IDX">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>WAREHOUSE_NAME_IDX</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBEE442E-CFB5-05B8-6784-395D9E3DCBE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

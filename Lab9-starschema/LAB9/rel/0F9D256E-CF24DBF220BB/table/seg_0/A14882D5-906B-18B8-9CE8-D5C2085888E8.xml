@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14882D5-906B-18B8-9CE8-D5C2085888E8" name="CUSTOMER">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Table that holds critical customer information&lt;br/&gt;</comment>
+<generatorID>76FB5A20-B5BB-AFDB-80BA-10A599B3DFF8</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="902D1AEA-F2E6-9C1D-B9BC-B311C0743948">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>unique customer identifier</comment>
+<generatorID>FCD79D98-B5B0-EE34-1C56-98EBF2DBD029</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_FIRST_NM" id="9CB21AD8-6C1B-B61F-40ED-16EB7ED86367">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer first name</comment>
+<generatorID>20EADCBD-E4A8-855E-AA38-B6259F4DE9D2</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_MIDDLE_NM" id="FC13AA11-767C-CD91-70A1-AB91676F9CDF">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer middle name</comment>
+<generatorID>791E9648-2926-B07D-EAEC-A69947F1A52A</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_LAST_NM" id="8D550C78-B596-F3A6-B1FB-4AACF16C8D52">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer last name</comment>
+<generatorID>A0DEC22B-E8A7-3FCB-EAD6-DE5336766726</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCOME" id="F208BDA8-1C71-0FA0-5430-F2AF2028D7B5">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer income</comment>
+<generatorID>A4E19C39-D9C3-D577-D7B0-50F55D977966</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOCIAL_INSURANCE_NUMBER" id="2B1EBE99-6E72-D97D-AADE-B7705D6FB097">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer social insurance number</comment>
+<generatorID>339CF4E4-9195-8902-DC22-8CD3E5D2C2F7</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91D11F01-67B3-CF0C-6EA1-83AB69F5F8E2" name="CUSTOMER_PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>30012F8B-FF94-2344-F5B7-4E3136D0FCDD</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="902D1AEA-F2E6-9C1D-B9BC-B311C0743948"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

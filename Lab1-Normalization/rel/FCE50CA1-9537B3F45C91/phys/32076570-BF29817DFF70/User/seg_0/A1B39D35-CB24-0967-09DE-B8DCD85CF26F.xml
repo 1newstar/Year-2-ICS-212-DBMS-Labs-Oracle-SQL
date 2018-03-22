@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="NMACKENZI" directorySegmentName="seg_0" id="A1B39D35-CB24-0967-09DE-B8DCD85CF26F">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjName>NMACKENZI</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<schemaObject>1EB38818-CD5F-7E14-7AF0-D7E9677FB70E</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBBDD5BC-3853-1EFD-A0C0-D27C74E83213" name="PRODUCT">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Information about product details&lt;br/&gt;</comment>
+<generatorID>D33B06E1-EA46-21FA-CEBC-B371F5084F19</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="D691C9FA-57E5-D6E1-DAB2-CE1E05AF7E95">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Product ID</comment>
+<generatorID>AAB884CA-8CC7-3C00-82B6-72999153E442</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_NM" id="F5C9FDE7-3744-3C9F-5FCB-A0EB101788E8">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Product Name</comment>
+<generatorID>432BFB42-B3ED-81A7-92A9-777E5B25B1FB</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_DESC" id="134A3023-F33D-CA20-8FFC-C06D6AB2FF93">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Product description</comment>
+<generatorID>C6581E0E-F11E-A3F1-1871-9B78B4C23D26</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIST_PRICE" id="C6BA1E09-7976-82F8-7F11-690A230CBD87">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Price list</comment>
+<generatorID>8D117003-6E4C-9220-1134-8DD677960202</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_PRICE" id="7D2A2E7F-6379-71DE-5BF7-77F1B0C76FED">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Minimum price</comment>
+<generatorID>7FEB9611-36E3-0995-0A54-A4F583F47737</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_STS" id="1382D4D9-D194-3D05-0864-47A5539456BD">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>product status</comment>
+<generatorID>6BE2E21B-E899-152B-5CBD-D0B9D884A566</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82669448-ECA2-E134-9963-8D4B26C49BEE" name="PRODUCT_PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>864B8AD8-DFEA-798B-05A2-6D21F047DC07</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D691C9FA-57E5-D6E1-DAB2-CE1E05AF7E95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847AD640-97C7-BAA7-201E-D979D5145019" name="DEMOGRAPHIC">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Alternate information about customers </comment>
+<generatorID>1DCAEFCE-AA41-A193-B5F1-CCEE0F1F40E6</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CR_LIMIT" id="E2286F53-46E5-2136-2EC6-6810B8AE24CD">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer credit limit</comment>
+<generatorID>DF2AA67B-11E0-EB20-4E2B-688506E578D8</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DT" id="62A8A083-50AD-23FC-5D3B-74CFC495A4BB">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer birth date</comment>
+<generatorID>32F3D0B2-740F-39B2-8E16-D4DB9E26C9E4</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="AE65C501-E7D9-AFAA-5D16-A27D1E8923B0">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer gender </comment>
+<generatorID>690EEEF1-20DE-0F24-D2D3-42EBD776D2F8</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARITAL_STS" id="D0F47097-FF69-45A2-A456-357AA21D0B18">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>customer marital status</comment>
+<generatorID>CF26E357-E25D-4060-5C50-1A632AAF1CCB</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E139BFB6-8072-D6D5-4905-C9CFC2276D02" name="DEMOGRAPHIC_PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>BC253F58-CD96-71C3-39C0-989A58408B9C</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2286F53-46E5-2136-2EC6-6810B8AE24CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="WAREHOUSES" directorySegmentName="seg_0" id="A71C6FDE-52BE-21A5-470C-CA00E4B073D8">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>79BBA2E4-10DE-608E-43F1-B5A430771303</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOCATION_ID" id="15E7EA1B-1778-0890-5BC0-EA14E741089C">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WAREHOUSE_ID" id="1E88CD01-94F3-6390-EB2E-582EB657F131">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WAREHOUSE_NAME" id="CBEE442E-CFB5-05B8-6784-395D9E3DCBE2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="WAREHOUSE_NAME_IDX" id="1C369CEC-E8F2-D660-D098-2404E87F2908">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>C8D047C1-0F79-326C-86F2-2788854A40F4</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOCATION_ID_IDX" id="41FA8D89-78EF-99BF-81F8-ADD011964143">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>C8D047C1-0F79-326C-86F2-2788854A40F4</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="WAREHOUSES_PK" id="7BD12224-84E2-FF7C-7649-5AF66693B668">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:47 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<schemaObject>B05BAB68-8342-697F-FC19-818732B4620C</schemaObject>
+<segment>C8D047C1-0F79-326C-86F2-2788854A40F4</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WAREHOUSES_PK" id="7A906960-1346-1238-09C0-48A5DA9930E2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<segment>C8D047C1-0F79-326C-86F2-2788854A40F4</segment>
+<tableSpace>25FFFC96-C7ED-9B34-8C79-264A5178EF35</tableSpace>
+<existingIndex>7BD12224-84E2-FF7C-7649-5AF66693B668</existingIndex>
+<indexSegment>C8D047C1-0F79-326C-86F2-2788854A40F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

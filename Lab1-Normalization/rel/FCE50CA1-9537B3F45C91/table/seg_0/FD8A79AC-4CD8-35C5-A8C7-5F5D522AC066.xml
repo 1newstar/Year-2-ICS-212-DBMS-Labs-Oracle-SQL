@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD8A79AC-4CD8-35C5-A8C7-5F5D522AC066" schemaObject="1EB38818-CD5F-7E14-7AF0-D7E9677FB70E" name="STUDENT">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="B89E640B-54CB-61F5-2B68-EF19C7A1B1B0">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STUDENT_ID</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="A77B8314-1A32-EDCF-FC5D-C32F4D45BF33">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="FDC0C712-F65E-AF1E-ADCB-79CFBF7F4C55">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE8396DE-EB0F-8028-D1BC-5DCE661ED8F8" name="STUDENT_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>STUDENT_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89E640B-54CB-61F5-2B68-EF19C7A1B1B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B83A344F-0896-C73F-DC84-172364BD1E22" schemaObject="1EB38818-CD5F-7E14-7AF0-D7E9677FB70E" name="STUDENT_PK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>STUDENT_PK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 15:25:28 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89E640B-54CB-61F5-2B68-EF19C7A1B1B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

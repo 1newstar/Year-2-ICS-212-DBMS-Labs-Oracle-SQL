@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBF19F24-1414-90AD-FA6F-CD08FC985505" name="REGION">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Local customer  location data</comment>
+<generatorID>B57132B0-5940-2ECB-C68C-5A6006E57C4C</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REG_ID" id="9BFE56D5-8182-6828-B193-51374D6BFFDC">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Region Identification</comment>
+<generatorID>C219F821-EA06-1F69-0443-B0FCD01AE826</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_NM" id="F27FB422-DC2F-4E76-9340-F93B81CC2C7F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>City Name</comment>
+<generatorID>968B9E03-82EA-2A2A-41BE-B6202EC6B431</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE_NM" id="C0CAC44E-27D8-FC48-D72F-BE0AB6B5A709">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Province Name</comment>
+<generatorID>BF162D33-2960-5F11-67F0-30F7873B9A11</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NM" id="B49673BE-DDC9-FAEF-5772-9EC19604AA11">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Country Name</comment>
+<generatorID>5B8975BD-1667-E1FA-9467-8F2FAE25974C</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT" id="339E2171-DF1D-B260-33D7-0D63331C0EF3">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Specific department of region</comment>
+<generatorID>8DC937B1-ABA3-4203-CD05-06D7BAE083F0</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1246D5C8-5387-68F9-355B-93CE99BD5CE4" name="REGION_PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>B0752D3A-DCDA-D919-F805-963079BA4BE6</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BFE56D5-8182-6828-B193-51374D6BFFDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

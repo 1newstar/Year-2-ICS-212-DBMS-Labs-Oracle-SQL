@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="061A9AFD-D0EC-90E0-4B61-25FC31977FE0" name="SALE_REP">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Sales person information including managers information&lt;br/&gt;</comment>
+<generatorID>7E2DD881-ED47-8FDF-0CD9-1230CFD9C9B4</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="E40B76AD-6B70-2BC4-9078-60C39D86A42C">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Employee ID</comment>
+<generatorID>12CFEFF8-25CF-B073-1E03-AC942F3638EA</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_FIRST_NM" id="EB0E994E-D3E1-6AA8-D5F0-C3BB1F90BD12">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Employee first name</comment>
+<generatorID>8EE980CF-0539-52E7-8AD3-D8239E28BF99</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_LAST_NM" id="58C6C0B3-27EB-DC84-05E6-9A73A845607F">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Employee last name</comment>
+<generatorID>9DA0AA64-B14D-8C9E-60EE-0CC63B497AAF</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR" id="8EB97580-4467-011A-BB49-4DD5219D6E41">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>Employee address</comment>
+<generatorID>7EF0D803-9D18-CB37-38B9-5A5D9158C23F</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="7981BB61-9942-C9A6-3A85-A10F278836F2">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>employee salary</comment>
+<generatorID>6A5CDD5B-A4A3-431C-DC0C-9540BF11174F</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT" id="1FCEB003-C7B3-074B-5687-C3156DFDD092">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>employee department</comment>
+<generatorID>2D6D1704-C233-D664-1255-5DB61E431184</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MGT_ID" id="D684E583-9F5F-DD8D-A982-9542F4417BAB">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>manager ID</comment>
+<generatorID>B64C8FF4-962E-BF25-40EF-FEC5420D674E</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MGT_NM" id="08D1B3C9-DA31-EBDB-FC75-3B1565635850">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<comment>manager name</comment>
+<generatorID>2BD158DA-4ACF-4B99-8F44-F89CE7C708C7</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7250D277-498D-51B4-7D77-011805CE0E2A" name="SALES_REPS_PK">
+<createdBy>aceis</createdBy>
+<createdTime>2017-11-15 19:19:53 UTC</createdTime>
+<generatorID>33172380-B702-026A-D5EB-292F5D7A9445</generatorID>
+<ownerDesignName>LAB9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E40B76AD-6B70-2BC4-9078-60C39D86A42C"/>
+<colUsage columnID="D684E583-9F5F-DD8D-A982-9542F4417BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

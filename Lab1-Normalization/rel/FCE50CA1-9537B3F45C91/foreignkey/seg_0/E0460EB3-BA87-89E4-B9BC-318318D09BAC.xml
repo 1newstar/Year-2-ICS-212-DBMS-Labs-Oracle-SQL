@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0460EB3-BA87-89E4-B9BC-318318D09BAC" containerWithKeyObject="88CBCAE8-9529-BB04-4FCC-B4FC70061A58" localFKIndex="D7D7ADC8-498D-D5A7-1AAB-DBBA04C97FAB" name="CID_FK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>CID_FK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-09-13 17:19:32 UTC</createdTime>
+<ownerDesignName>212Lab1</ownerDesignName>
+<importedID>79E29BB5-507B-8B10-7737-CF8DF98286D0</importedID>
+<referredTableLongName>NMACKENZI.COURSE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB8E9E73-CF93-3093-8A77-92DAE6DD2AD4</referredTableID>
+<keyObject>738CECB1-CA79-D134-D634-95499CC4689E</keyObject>
+<referredKeyID>738CECB1-CA79-D134-D634-95499CC4689E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COURSE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B5CECE5-DD57-3E55-5265-21E976BCE454" containerWithKeyObject="5769FF57-9E9B-7524-5679-C1D115B7A0A1" localFKIndex="B2504535-7E5D-5768-E687-56A9E63B3F2E" name="ORDERS_CUSTOMER_ID_FK">
+<sourceConnName>Camosun db</sourceConnName>
+<sourceObjSchema>NMACKENZI</sourceObjSchema>
+<sourceObjName>ORDERS_CUSTOMER_ID_FK</sourceObjName>
+<createdBy>aceis</createdBy>
+<createdTime>2017-10-17 21:46:48 UTC</createdTime>
+<ownerDesignName>lab05</ownerDesignName>
+<referredTableLongName>NMACKENZI.CUSTOMERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE8D25C8-7888-7D58-27C0-DEBB240E132B</referredTableID>
+<keyObject>409CF3F2-77A0-71A7-1D3F-7452854A9231</keyObject>
+<referredKeyID>409CF3F2-77A0-71A7-1D3F-7452854A9231</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CUSTOMER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
